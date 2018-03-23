@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <center><img src="Live-Well.png" height="245" width="245"></center>
+        <h1 id="title"></h1>
+        <h2 id="intro"></h2>
+        <!--Buttons  -->
+       <button class="previous" style="display: none">&#8249;</button>
+       <button class="next" style="display: none">&#8250;</button>
+        <!--Specific Slide Content  -->
+       <div class="slide3" style="display:none">
+         <p>Contact Information<p>
+         <li>
+           Center Park: (215) 848-7722
+         </li>
+         <li>
+           Intercommunity Action: (215) 487-0914
+         </li>
+         <li>
+           Philadelphia Senior Center: (215) 546-5879
+         </li>
+       </div>
+
+       <div class="slide5" style="display:none">
+         <li>
+           Contact Information: (215) 981-0088
+         </li>
+         <li>
+           Office Hour: Mon to Fri 9:00am - 5:00pm
+         </li>
+       </div>
+
+       <div class="slide6" style="display:none">
+         <li>
+           Contact Information: (215) 940-3900
+         </li>
+         <li>
+           Office Hour: Mon to Fri 9:00am - 5:00pm
+         </li>
+       </div>
+    </div>
+
+
+    <!-- Map -->
+    <div id="map" class="map"></div>
+
+    <!-- Javascript Imports -->
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slideModel.js"></script>
+    <script src="js/midtermFunctions.js"></script>
+  </body>
+</html>

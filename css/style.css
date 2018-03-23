@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: helvetica, arial, sans-serif;
+}
+
+p.main {
+  font-size: 24px;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 400px;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: #212121;
+    padding: 20px;
+    font-size: 16px;
+}
+
+button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+button:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.previous {
+    position: absolute;
+    left: 250px;
+    right:100px;
+    top: 540px;
+    bottom: 30px;
+    background-color: #f1f1f1;
+    color: #546E7A;
+}
+
+.next {
+    position: absolute;
+    left: 300px;
+    right:120px;
+    top: 540px;
+    bottom: 30px;
+    background-color: #f1f1f1;
+    color: #546E7A;
+}
+
+#title{
+  font-size: 19px;
+  font-family: helvetica;
+  color: #ffffff;
+}
+#intro {
+  position: absolute;
+  top: 330px;
+  right:15px;
+  left:20px;
+  font-size: 16px;
+  font-family: arial;
+  color: #ffffff;
+  font-weight: normal;
+}
+.slide3{
+  position: absolute;
+  top: 410px;
+  right:15px;
+  left:20px;
+  color: #ffffff;
+}
+.slide5{
+  position: absolute;
+  top: 450px;
+  right:15px;
+  left:20px;
+  color: #ffffff;
+}
+
+.slide6{
+  position: absolute;
+  top: 465px;
+  right:15px;
+  left:20px;
+  color: #ffffff;
+}
